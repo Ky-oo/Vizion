@@ -1,0 +1,49 @@
+@import "variables_overrides.scss";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "components_overrides.scss";
+
+.btn-custom {
+  padding: 0.25rem 0.5rem;
+}
+
+.presentation {
+  background-color: #005f8b;
+  height: 600px;
+}
+
+.presentationGradient {
+  background: linear-gradient(#005f8b, #b94a08);
+  height: 400px;
+}
+
+.reservation {
+  background-color: #b94a08;
+  height: 200px;
+}
+
+.reservationGradient {
+  background: linear-gradient(#b94a08, #000000);
+  height: 600px;
+}
+
+.footer {
+  background-color: #000000;
+}
+
+.postVol {
+  background-color: #000000;
+}
+
+.spaceDiv {
+  padding-top: 200px;
+}
+
+.card {
+  background-color: #c5adad;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
