@@ -1,39 +1,60 @@
 @import "variables_overrides.scss";
-
 @import "../node_modules/bootstrap/scss/bootstrap";
-
 @import "components_overrides.scss";
 
-.btn-custom {
-  padding: 0.25rem 0.5rem;
+body,
+html {
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  padding: 0;
 }
 
 .presentation {
   background-color: #005f8b;
   height: 600px;
+  z-index: -1;
+  width: 100%;
+  margin: 0;
 }
 
 .presentationGradient {
   background: linear-gradient(#005f8b, #b94a08);
   height: 400px;
+  z-index: -1;
+  width: 100%;
+  margin: 0;
 }
 
 .reservation {
   background-color: #b94a08;
   height: 200px;
+  z-index: -1;
+  width: 100%;
+  margin: 0;
 }
 
 .reservationGradient {
   background: linear-gradient(#b94a08, #000000);
   height: 600px;
+  z-index: -1;
+  width: 100%;
+  margin: 0;
 }
 
 .footer {
   background-color: #000000;
+  z-index: -1;
+  width: 100%;
+  margin: 0;
 }
 
 .postVol {
   background-color: #000000;
+  z-index: -1;
+  width: 100%;
+  margin: 0;
 }
 
 .spaceDiv {
@@ -44,11 +65,6 @@
   background-color: #c5adad;
 }
 
-.footer a:hover {
-  text-decoration: underline;
-}
-
-body,
-html {
-  overflow-x: hidden;
+.btn-custom {
+  padding: 0.25rem 0.5rem;
 }
